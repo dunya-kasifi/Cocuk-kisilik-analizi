@@ -70,10 +70,15 @@ class ResultPage extends StatelessWidget {
                                   children: [
                                     Row(
                                       children: [
-                                        CircleAvatar(
-                                          radius: 30,
-                                          backgroundImage: AssetImage(
-                                              character.avatar.imagePath),
+                                        ClipRRect(
+                                          borderRadius:
+                                              BorderRadius.circular(16),
+                                          child: Image.asset(
+                                            character.avatar.imagePath,
+                                            width: 64,
+                                            height: 64,
+                                            fit: BoxFit.cover,
+                                          ),
                                         ),
                                         const SizedBox(width: 16),
                                         Expanded(
@@ -147,7 +152,7 @@ class ResultPage extends StatelessWidget {
                     // İleri butonu
                     ElevatedButton.icon(
                       onPressed: () {
-                        Get.to(() =>  AnalysisPage());
+                        Get.to(() => AnalysisPage());
                       },
                       style: ElevatedButton.styleFrom(
                         backgroundColor: Colors.white,

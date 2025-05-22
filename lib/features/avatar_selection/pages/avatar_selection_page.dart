@@ -1,3 +1,4 @@
+import 'package:child_personality_analysis/core/theme/app_colors.dart';
 import 'package:child_personality_analysis/features/create_team_page/pages/create_team_page.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
@@ -107,17 +108,28 @@ class AvatarSelectionPage extends StatelessWidget {
                       ),
                       const SizedBox(height: 24),
                       if (selected != null)
-                        CircleAvatar(
-                          radius: 80,
-                          backgroundColor: Colors.white,
-                          child: CircleAvatar(
-                            radius: 75,
-                            backgroundImage: AssetImage(selected.imagePath),
+                        Container(
+                          decoration: BoxDecoration(
+                            border: Border.all(
+                              width: 4,
+                              color: AppColors.disabledColor,
+                            ),
+                            borderRadius: BorderRadius.circular(55),
+                          ),
+                          child: ClipRRect(
+                            borderRadius: BorderRadius.circular(50),
+                            child: Image.asset(
+                              selected.imagePath,
+                              width: 130,
+                              height: 130,
+                              fit: BoxFit.cover,
+                            ),
                           ),
                         ),
                       const SizedBox(height: 24),
-                      // Yatay avatar listesi
+                      // Yatay avatar grid
                       Container(
+                        margin: EdgeInsets.symmetric(horizontal: 30),
                         padding: const EdgeInsets.symmetric(
                             horizontal: 24, vertical: 8),
                         decoration: BoxDecoration(
@@ -125,10 +137,13 @@ class AvatarSelectionPage extends StatelessWidget {
                           borderRadius: BorderRadius.circular(24),
                           border: Border.all(color: Colors.white24),
                         ),
-                        child: SingleChildScrollView(
-                          scrollDirection: Axis.horizontal,
-                          child: Row(
-                            mainAxisSize: MainAxisSize.min,
+                        child: SizedBox(
+                          height: 350,
+                          child: GridView.count(
+                            crossAxisCount: 15,
+                            crossAxisSpacing: 8,
+                            mainAxisSpacing: 8,
+                            shrinkWrap: true,
                             children: List.generate(
                                 controller.availableAvatars.length, (index) {
                               final avatar = controller.availableAvatars[index];
@@ -150,11 +165,10 @@ class AvatarSelectionPage extends StatelessWidget {
                                 child: Opacity(
                                   opacity: canSelect ? 1.0 : 0.4,
                                   child: Container(
-                                    margin: const EdgeInsets.symmetric(
-                                        horizontal: 8),
                                     padding: const EdgeInsets.all(2),
                                     decoration: BoxDecoration(
-                                      shape: BoxShape.circle,
+                                      shape: BoxShape.rectangle,
+                                      borderRadius: BorderRadius.circular(20),
                                       border: Border.all(
                                         color: isSelected
                                             ? Colors.lightBlueAccent
@@ -162,13 +176,13 @@ class AvatarSelectionPage extends StatelessWidget {
                                         width: 3,
                                       ),
                                     ),
-                                    child: CircleAvatar(
-                                      radius: 32,
-                                      backgroundColor: Colors.white,
-                                      child: CircleAvatar(
-                                        radius: 29,
-                                        backgroundImage:
-                                            AssetImage(avatar.imagePath),
+                                    child: ClipRRect(
+                                      borderRadius: BorderRadius.circular(16),
+                                      child: Image.asset(
+                                        avatar.imagePath,
+                                        width: 64,
+                                        height: 64,
+                                        fit: BoxFit.cover,
                                       ),
                                     ),
                                   ),

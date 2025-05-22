@@ -1,3 +1,4 @@
+import 'package:child_personality_analysis/core/theme/app_colors.dart';
 import 'package:child_personality_analysis/features/result_page/pages/result_page.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
@@ -83,13 +84,22 @@ class CreateTeamPage extends StatelessWidget {
                                 child: Column(
                                   mainAxisAlignment: MainAxisAlignment.center,
                                   children: [
-                                    CircleAvatar(
-                                      radius: 75,
-                                      backgroundColor: Colors.white,
-                                      child: CircleAvatar(
-                                        radius: 70,
-                                        backgroundImage: AssetImage(
-                                            character.avatar.imagePath),
+                                    Container(
+                                      decoration: BoxDecoration(
+                                        border: Border.all(
+                                          width: 4,
+                                          color: AppColors.disabledColor,
+                                        ),
+                                        borderRadius: BorderRadius.circular(32),
+                                      ),
+                                      child: ClipRRect(
+                                        borderRadius: BorderRadius.circular(28),
+                                        child: Image.asset(
+                                          character.avatar.imagePath,
+                                          width: 150,
+                                          height: 150,
+                                          fit: BoxFit.cover,
+                                        ),
                                       ),
                                     ),
                                     const SizedBox(height: 16),
