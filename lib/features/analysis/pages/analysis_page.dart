@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:flutter_markdown/flutter_markdown.dart';
 import '../controllers/analysis_controller.dart';
 
 class AnalysisPage extends StatelessWidget {
@@ -58,28 +59,30 @@ class AnalysisPage extends StatelessWidget {
                       );
                     }
 
-                    return SingleChildScrollView(
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        children: [
-                          // Kişilik Analizi
-                          _buildSection(
-                            '',
-                            controller.personalityAnalysis.value,
-                          ),
-                          // const SizedBox(height: 24),
-                          // // Duygu Durumu
-                          // _buildSection(
-                          //   'Duygu Durumu',
-                          //   controller.emotionalState.value,
-                          // ),
-                          // const SizedBox(height: 24),
-                          // // Öneriler
-                          // _buildSection(
-                          //   'Öneriler',
-                          //   controller.recommendations.value,
-                          // ),
-                        ],
+                    return Markdown(
+                      data: controller.personalityAnalysis.value,
+                      styleSheet:
+                          MarkdownStyleSheet.fromTheme(Theme.of(context))
+                              .copyWith(
+                        p: const TextStyle(color: Colors.white, fontSize: 16),
+                        h1: const TextStyle(
+                            color: Colors.white,
+                            fontSize: 24,
+                            fontWeight: FontWeight.bold),
+                        h2: const TextStyle(
+                            color: Colors.white,
+                            fontSize: 20,
+                            fontWeight: FontWeight.bold),
+                        h3: const TextStyle(
+                            color: Colors.white,
+                            fontSize: 18,
+                            fontWeight: FontWeight.bold),
+                        strong: const TextStyle(
+                            color: Colors.white, fontWeight: FontWeight.bold),
+                        blockquote: const TextStyle(
+                            color: Colors.white70, fontStyle: FontStyle.italic),
+                        code: const TextStyle(color: Colors.orangeAccent),
+                        listBullet: const TextStyle(color: Colors.white),
                       ),
                     );
                   }),
@@ -106,40 +109,6 @@ class AnalysisPage extends StatelessWidget {
               ],
             ),
           ),
-        ),
-      ),
-    );
-  }
-
-  Widget _buildSection(String title, String content) {
-    return Card(
-      color: Colors.white.withOpacity(0.2),
-      shape: RoundedRectangleBorder(
-        borderRadius: BorderRadius.circular(16),
-      ),
-      child: Padding(
-        padding: const EdgeInsets.all(16.0),
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            Text(
-              title,
-              style: const TextStyle(
-                fontSize: 24,
-                fontWeight: FontWeight.bold,
-                color: Colors.white,
-              ),
-            ),
-            const SizedBox(height: 16),
-            Text(
-              content,
-              style: const TextStyle(
-                fontSize: 16,
-                color: Colors.white,
-                height: 1.5,
-              ),
-            ),
-          ],
         ),
       ),
     );
