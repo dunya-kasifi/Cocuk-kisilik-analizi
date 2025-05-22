@@ -64,21 +64,21 @@ class AnalysisPage extends StatelessWidget {
                         children: [
                           // Kişilik Analizi
                           _buildSection(
-                            'Kişilik Analizi',
+                            '',
                             controller.personalityAnalysis.value,
                           ),
-                          const SizedBox(height: 24),
-                          // Duygu Durumu
-                          _buildSection(
-                            'Duygu Durumu',
-                            controller.emotionalState.value,
-                          ),
-                          const SizedBox(height: 24),
-                          // Öneriler
-                          _buildSection(
-                            'Öneriler',
-                            controller.recommendations.value,
-                          ),
+                          // const SizedBox(height: 24),
+                          // // Duygu Durumu
+                          // _buildSection(
+                          //   'Duygu Durumu',
+                          //   controller.emotionalState.value,
+                          // ),
+                          // const SizedBox(height: 24),
+                          // // Öneriler
+                          // _buildSection(
+                          //   'Öneriler',
+                          //   controller.recommendations.value,
+                          // ),
                         ],
                       ),
                     );

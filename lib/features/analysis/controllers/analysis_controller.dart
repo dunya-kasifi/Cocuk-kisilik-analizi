@@ -43,26 +43,13 @@ Bu bilgileri ve karakterleri 3-10 yaş arası bir çocuk seçti ve böyle bir ta
 2. Duygu Durumu: Çocuğun seçimlerine bakarak duygusal durumunu değerlendir.
 3. Öneriler: Çocuğun gelişimi için öneriler sun.
 
-Analizi çocuk dostu bir dille, anlaşılır ve yapıcı bir şekilde yap.
+Analizi çocuk dostu bir dille, anlaşılır ve yapıcı bir şekilde yap. Soru sormani istemiyorum direk olarak cevabi ver ve analizi olustur.
 ''';
 
       print(prompt);
 
       final response = await openAIService.analyzePersonality(prompt);
-
-      // Yanıtı bölümlere ayır
-      final sections = response.split('\n\n');
-
-      if (sections.length >= 3) {
-        personalityAnalysis.value =
-            sections[0].replaceAll('1. Kişilik Analizi:', '').trim();
-        emotionalState.value =
-            sections[1].replaceAll('2. Duygu Durumu:', '').trim();
-        recommendations.value =
-            sections[2].replaceAll('3. Öneriler:', '').trim();
-      } else {
-        throw Exception('Analiz yanıtı beklenen formatta değil');
-      }
+      personalityAnalysis.value = response;
     } catch (e) {
       error.value = e.toString();
     } finally {
