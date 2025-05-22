@@ -1,19 +1,395 @@
 [
     {
         "id": 1,
-        "gender": "Erkek",
-        "image_path": "assets/avatars/1.jpeg",
+        "gender": "Kız",
+        "image_path": "assets/avatars/1.png",
         "physicalFeatures": {
-            "eyeShape": "Badem",
-            "faceShape": "Kare",
-            "earShape": "Büyük",
+            "eyeShape": "Yuvarlak",
+            "faceShape": "Yuvarlak",
+            "earShape": "Orta",
+            "headShape": "Oval",
+            "noseShape": "Kısa",
+            "skinTone": "Orta",
+            "hairColor": "Siyah",
+            "hairStyle": "Düz, Uzun",
+            "eyeColor": "Mavi",
+            "hasGlasses": false
+        },
+        "extraConditions": [
+            "Bandanalı"
+        ],
+        "emotionalState": "Üzgün"
+    },
+    {
+        "id": 2,
+        "gender": "Erkek",
+        "image_path": "assets/avatars/2.png",
+        "physicalFeatures": {
+            "eyeShape": "Yuvarlak",
+            "faceShape": "Yuvarlak",
+            "earShape": "Orta büyüklükte",
             "headShape": "Yuvarlak",
-            "noseShape": "Kısa ve yuvarlak",
+            "noseShape": "Küçük, Yuvarlak",
+            "skinTone": "Açık tenli",
+            "hairColor": "Kızıl",
+            "hairStyle": "Kıvırcık",
+            "eyeColor": "Koyu kahverengi",
+            "hasGlasses": false
+        },
+        "extraConditions": [
+            "Çilli"
+        ],
+        "emotionalState": "Mutlu"
+    },
+    {
+        "id": 3,
+        "gender": "Kız",
+        "image_path": "assets/avatars/3.png",
+        "physicalFeatures": {
+            "eyeShape": "Yuvarlak",
+            "faceShape": "Yuvarlak",
+            "earShape": "Orta",
+            "headShape": "Yuvarlak",
+            "noseShape": "Küçük, yuvarlak",
+            "skinTone": "Açık tenli",
+            "hairColor": "Kızıl",
+            "hairStyle": "Kıvırcık",
+            "eyeColor": "Siyah",
+            "hasGlasses": false
+        },
+        "extraConditions": [
+            "Çilli"
+        ],
+        "emotionalState": "Mutlu"
+    },
+    {
+        "id": 4,
+        "gender": "Erkek",
+        "image_path": "assets/avatars/4.png",
+        "physicalFeatures": {
+            "eyeShape": "Yuvarlak",
+            "faceShape": "Yuvarlak",
+            "earShape": "Orta",
+            "headShape": "Yuvarlak",
+            "noseShape": "Küçük, yuvarlak",
+            "skinTone": "Açık tenli",
+            "hairColor": "Sarı",
+            "hairStyle": "Kısa düz",
+            "eyeColor": "Siyah",
+            "hasGlasses": false
+        },
+        "extraConditions": [
+            ""
+        ],
+        "emotionalState": "Mutlu"
+    },
+    {
+        "id": 5,
+        "gender": "Kız",
+        "image_path": "assets/avatars/5.png",
+        "physicalFeatures": {
+            "eyeShape": "Yuvarlak",
+            "faceShape": "Oval",
+            "earShape": "Orta",
+            "headShape": "Yuvarlak",
+            "noseShape": "Küçük",
+            "skinTone": "Açık tenli",
+            "hairColor": "Sarı",
+            "hairStyle": "Düz, Kısa",
+            "eyeColor": "Kahverengi",
+            "hasGlasses": false
+        },
+        "extraConditions": [
+            ""
+        ],
+        "emotionalState": "Mutlu"
+    },
+    {
+        "id": 6,
+        "gender": "Erkek",
+        "image_path": "assets/avatars/6.png",
+        "physicalFeatures": {
+            "eyeShape": "Yuvarlak",
+            "faceShape": "Yuvarlak",
+            "earShape": "Orta",
+            "headShape": "Yuvarlak",
+            "noseShape": "Küçük ve yuvarlak",
             "skinTone": "Açık tenli",
             "hairColor": "Siyah",
             "hairStyle": "Kısa düz",
+            "eyeColor": "Siyah",
+            "hasGlasses": false
+        },
+        "extraConditions": [],
+        "emotionalState": "Mutlu"
+    },
+    {
+        "id": 7,
+        "gender": "Kız",
+        "image_path": "assets/avatars/7.png",
+        "physicalFeatures": {
+            "eyeShape": "Yuvarlak",
+            "faceShape": "Oval",
+            "earShape": "Orta",
+            "headShape": "Oval",
+            "noseShape": "Küçük ve yuvarlak",
+            "skinTone": "Orta açık",
+            "hairColor": "Siyah",
+            "hairStyle": "Orta uzun düz",
+            "eyeColor": "Siyah",
+            "hasGlasses": false
+        },
+        "extraConditions": [
+            ""
+        ],
+        "emotionalState": "Mutlu"
+    },
+    {
+        "id": 8,
+        "gender": "Erkek",
+        "image_path": "assets/avatars/8.png",
+        "physicalFeatures": {
+            "eyeShape": "Yuvarlak",
+            "faceShape": "Yuvarlak",
+            "earShape": "Orta",
+            "headShape": "Yuvarlak",
+            "noseShape": "Küçük",
+            "skinTone": "Açık tenli",
+            "hairColor": "Sarı",
+            "hairStyle": "Kısa, düz",
             "eyeColor": "Mavi",
+            "hasGlasses": false
+        },
+        "extraConditions": [
+            "Doğum lekesi"
+        ],
+        "emotionalState": "Mutlu"
+    },
+    {
+        "id": 9,
+        "gender": "Kız",
+        "image_path": "assets/avatars/9.png",
+        "physicalFeatures": {
+            "eyeShape": "Yuvarlak",
+            "faceShape": "Yuvarlak",
+            "earShape": "Orta",
+            "headShape": "Yuvarlak",
+            "noseShape": "Küçük ve yuvarlak",
+            "skinTone": "Açık tenli",
+            "hairColor": "Kızıl, Turuncu",
+            "hairStyle": "At kuyruğu",
+            "eyeColor": "Siyah",
+            "hasGlasses": false
+        },
+        "extraConditions": [
+            "Dişlek",
+            "Çilli"
+        ],
+        "emotionalState": "Kızgın"
+    },
+    {
+        "id": 10,
+        "gender": "Erkek",
+        "image_path": "assets/avatars/10.png",
+        "physicalFeatures": {
+            "eyeShape": "Yuvarlak",
+            "faceShape": "Yuvarlak",
+            "earShape": "Orta boy",
+            "headShape": "Yuvarlak",
+            "noseShape": "Kısa ve yuvarlak",
+            "skinTone": "Açık tenli",
+            "hairColor": "Yok",
+            "hairStyle": "Bandanalı",
+            "eyeColor": "Koyu kahverengi",
+            "hasGlasses": false
+        },
+        "extraConditions": [
+            "Lösemi"
+        ],
+        "emotionalState": "Mutlu"
+    },
+    {
+        "id": 11,
+        "gender": "Erkek",
+        "image_path": "assets/avatars/11.png",
+        "physicalFeatures": {
+            "eyeShape": "Yuvarlak",
+            "faceShape": "Yuvarlak",
+            "earShape": "Orta",
+            "headShape": "Yuvarlak",
+            "noseShape": "Yuvarlak ve küçük",
+            "skinTone": "Açık tenli",
+            "hairColor": "Sarı",
+            "hairStyle": "Kısa düz",
+            "eyeColor": "Kahverengi",
+            "hasGlasses": false
+        },
+        "extraConditions": [
+            "Kilolu"
+        ],
+        "emotionalState": "Mutlu"
+    },
+    {
+        "id": 12,
+        "gender": "Erkek",
+        "image_path": "assets/avatars/12.png",
+        "physicalFeatures": {
+            "eyeShape": "Yuvarlak",
+            "faceShape": "Yuvarlak",
+            "earShape": "Orta",
+            "headShape": "Yuvarlak",
+            "noseShape": "Küçük ve yuvarlak",
+            "skinTone": "Açık kahverengi",
+            "hairColor": "Kahverengi",
+            "hairStyle": "Kısa dalgalı",
+            "eyeColor": "Yeşil",
+            "hasGlasses": false
+        },
+        "extraConditions": [
+            "Dişlek",
+            "Çilli"
+        ],
+        "emotionalState": "Mutlu"
+    },
+    {
+        "id": 13,
+        "gender": "Erkek",
+        "image_path": "assets/avatars/13.png",
+        "physicalFeatures": {
+            "eyeShape": "Yuvarlak",
+            "faceShape": "Yuvarlak",
+            "earShape": "Orta",
+            "headShape": "Yuvarlak",
+            "noseShape": "Kısa ve yuvarlak",
+            "skinTone": "Koyu kahverengi",
+            "hairColor": "Siyah",
+            "hairStyle": "Kısa, düz",
+            "eyeColor": "Siyah",
+            "hasGlasses": false
+        },
+        "extraConditions": [
+            "Kilolu"
+        ],
+        "emotionalState": "Mutlu"
+    },
+    {
+        "id": 14,
+        "gender": "Kız",
+        "image_path": "assets/avatars/14.png",
+        "physicalFeatures": {
+            "eyeShape": "Yuvarlak",
+            "faceShape": "Oval",
+            "earShape": "Orta",
+            "headShape": "Yuvarlak",
+            "noseShape": "Küçük",
+            "skinTone": "Orta kahverengi",
+            "hairColor": "Kahverengi",
+            "hairStyle": "Uzun düz",
+            "eyeColor": "Siyah",
+            "hasGlasses": false
+        },
+        "extraConditions": [
+            "Göz bandı"
+        ],
+        "emotionalState": "Mutlu"
+    },
+    {
+        "id": 15,
+        "gender": "Kız",
+        "image_path": "assets/avatars/15.png",
+        "physicalFeatures": {
+            "eyeShape": "Yuvarlak",
+            "faceShape": "Yuvarlak",
+            "earShape": "Orta",
+            "headShape": "Yuvarlak",
+            "noseShape": "Küçük, Yuvarlak",
+            "skinTone": "Açık tenli",
+            "hairColor": "Sarı",
+            "hairStyle": "Orta uzun, düz",
+            "eyeColor": "Kahverengi",
             "hasGlasses": true
+        },
+        "extraConditions": [],
+        "emotionalState": "Mutlu"
+    },
+    {
+        "id": 16,
+        "gender": "Kız",
+        "image_path": "assets/avatars/16.png",
+        "physicalFeatures": {
+            "eyeShape": "Badem, hafif çekik, şaşılık var",
+            "faceShape": "Oval",
+            "earShape": "Küçük, yuvarlak",
+            "headShape": "Orta genişlikte",
+            "noseShape": "İnce, küçük",
+            "skinTone": "Açık buğday tonu",
+            "hairColor": "Koyu kahverengi",
+            "hairStyle": "Düz, omuz hizasında",
+            "eyeColor": "Kahverengi",
+            "hasGlasses": false
+        },
+        "extraConditions": [
+            "Şaşılık"
+        ],
+        "emotionalState": "Neşeli"
+    },
+    {
+        "id": 17,
+        "gender": "Erkek",
+        "image_path": "assets/avatars/17.png",
+        "physicalFeatures": {
+            "eyeShape": "Badem, hafif çekik, şaşılık var",
+            "faceShape": "Oval",
+            "earShape": "Küçük, yuvarlak",
+            "headShape": "Orta genişlikte",
+            "noseShape": "İnce, küçük",
+            "skinTone": "Açık buğday tonu",
+            "hairColor": "Koyu kahverengi",
+            "hairStyle": "Kısa",
+            "eyeColor": "Kahverengi",
+            "hasGlasses": false
+        },
+        "extraConditions": [
+            "Şaşılık"
+        ],
+        "emotionalState": "Neşeli"
+    },
+    {
+        "id": 18,
+        "gender": "Erkek",
+        "image_path": "assets/avatars/18.png",
+        "physicalFeatures": {
+            "eyeShape": "Badem, hafif çekik",
+            "faceShape": "Oval",
+            "earShape": "Küçük, yuvarlak",
+            "headShape": "Orta genişlikte",
+            "noseShape": "İnce, küçük",
+            "skinTone": "Açık buğday tonu",
+            "hairColor": "Koyu kahverengi",
+            "hairStyle": "Düz, omuz hizasında",
+            "eyeColor": "Kahverengi",
+            "hasGlasses": false
+        },
+        "extraConditions": [
+            "Göz Bandı"
+        ],
+        "emotionalState": "Neşeli"
+    },
+    {
+        "id": 19,
+        "gender": "Kız",
+        "image_path": "assets/avatars/19.png",
+        "physicalFeatures": {
+            "eyeShape": "Badem, hafif çekik",
+            "faceShape": "Oval",
+            "earShape": "Küçük, yuvarlak",
+            "headShape": "Orta genişlikte",
+            "noseShape": "İnce, küçük",
+            "skinTone": "Buğday tonlarında",
+            "hairColor": "Siyah",
+            "hairStyle": "Orta uzunlukta, hafif dalgalı",
+            "eyeColor": "Kahverengi",
+            "hasGlasses": false
         },
         "extraConditions": [
             "Dişlek"
@@ -21,111 +397,690 @@
         "emotionalState": "Mutlu"
     },
     {
-        "id": 2,
-        "gender": "Kadın",
-        "image_path": "assets/avatars/2.jpeg",
-        "physicalFeatures": {
-            "eyeShape": "Yuvarlak büyük",
-            "faceShape": "Oval",
-            "earShape": "Küçük ve yuvarlak",
-            "headShape": "Hafif geniş alın",
-            "noseShape": "Küçük ve ince",
-            "skinTone": "Orta kahverengi",
-            "hairColor": "Kahverengi",
-            "hairStyle": "Uzun kıvırcık",
-            "eyeColor": "Ela",
-            "hasGlasses": false
-        },
-        "extraConditions": [
-            "Doğum lekesi"
-        ],
-        "emotionalState": "Sakin"
-    },
-    {
-        "id": 3,
-        "gender": "Non-binary",
-        "image_path": "assets/avatars/3.jpeg",
-        "physicalFeatures": {
-            "eyeShape": "Büyük yuvarlak",
-            "faceShape": "Oval",
-            "earShape": "Orta yuvarlak",
-            "headShape": "Hafif uzun",
-            "noseShape": "Minik, kalkan şeklinde",
-            "skinTone": "Açık kahverengi",
-            "hairColor": "Koyu kahverengi",
-            "hairStyle": "Kısa dalgalı",
-            "eyeColor": "Koyu yeşil",
-            "hasGlasses": false
-        },
-        "extraConditions": [
-            "Doğum lekesi",
-            "Ben"
-        ],
-        "emotionalState": "Meraklı"
-    },
-    {
-        "id": 4,
+        "id": 20,
         "gender": "Erkek",
-        "image_path": "assets/avatars/4.jpeg",
+        "image_path": "assets/avatars/20.png",
         "physicalFeatures": {
-            "eyeShape": "Badem",
-            "faceShape": "Uzun",
-            "earShape": "Orta",
-            "headShape": "Uzun",
-            "noseShape": "Küçük, kalkık",
-            "skinTone": "Buğday",
-            "hairColor": "Sarı",
-            "hairStyle": "Orta düz",
-            "eyeColor": "Yeşil",
+            "eyeShape": "Badem, hafif çekik",
+            "faceShape": "Oval",
+            "earShape": "Küçük, yuvarlak",
+            "headShape": "Orta genişlikte",
+            "noseShape": "İnce, küçük",
+            "skinTone": "Buğday tonlarında",
+            "hairColor": "Siyah",
+            "hairStyle": "Orta uzunlukta, hafif dalgalı",
+            "eyeColor": "Kahverengi",
             "hasGlasses": false
         },
         "extraConditions": [
-            "Göz bandı",
-            "Diş teli"
+            "Dişlek"
         ],
-        "emotionalState": "Cesur"
+        "emotionalState": "Mutlu, neşeli"
     },
     {
-        "id": 5,
-        "gender": "Kadın",
-        "image_path": "assets/avatars/5.jpeg",
+        "id": 21,
+        "gender": "Kız",
+        "image_path": "assets/avatars/21.png",
         "physicalFeatures": {
-            "eyeShape": "Küçük yuvarlak",
-            "faceShape": "Yuvarlak",
-            "earShape": "Küçük",
-            "headShape": "Kısa",
-            "noseShape": "Kısa ve yuvarlak",
-            "skinTone": "Açık",
-            "hairColor": "Kızıl",
-            "hairStyle": "Kısa kıvırcık",
+            "eyeShape": "Badem, hafif çekik",
+            "faceShape": "Oval",
+            "earShape": "Küçük, yuvarlak",
+            "headShape": "Orta genişlikte",
+            "noseShape": "İnce, küçük",
+            "skinTone": "Buğday tonlarında",
+            "hairColor": "Siyah",
+            "hairStyle": "Orta uzunlukta, iki yanlardan bağlı",
             "eyeColor": "Kahverengi",
-            "hasGlasses": true
+            "hasGlasses": false
+        },
+        "extraConditions": [
+            "Doğum Lekesi"
+        ],
+        "emotionalState": "Mutlu, neşeli"
+    },
+    {
+        "id": 22,
+        "gender": "Erkek",
+        "image_path": "assets/avatars/22.png",
+        "physicalFeatures": {
+            "eyeShape": "Badem, hafif çekik",
+            "faceShape": "Oval",
+            "earShape": "Küçük, yuvarlak",
+            "headShape": "Orta genişlikte",
+            "noseShape": "İnce, küçük",
+            "skinTone": "Buğday tonlarında",
+            "hairColor": "Siyah",
+            "hairStyle": "Kısa",
+            "eyeColor": "Kahverengi",
+            "hasGlasses": false
+        },
+        "extraConditions": [
+            "Doğum Lekesi"
+        ],
+        "emotionalState": "Mutlu, neşeli"
+    },
+    {
+        "id": 23,
+        "gender": "Erkek",
+        "image_path": "assets/avatars/23.png",
+        "physicalFeatures": {
+            "eyeShape": "Badem, hafif çekik",
+            "faceShape": "Oval",
+            "earShape": "Orta boy, hafif kalkık",
+            "headShape": "Orta genişlikte",
+            "noseShape": "İnce, küçük, yuvarlak uçlu",
+            "skinTone": "Albino (çok açık, solgun)",
+            "hairColor": "Beyaz veya çok açık sarı",
+            "hairStyle": "Kısa, hafif dalgalı",
+            "eyeColor": "Açık mavi veya gri",
+            "hasGlasses": false
+        },
+        "extraConditions": [
+            "Albino"
+        ],
+        "emotionalState": "Neşeli"
+    },
+    {
+        "id": 24,
+        "gender": "Kız",
+        "image_path": "assets/avatars/24.png",
+        "physicalFeatures": {
+            "eyeShape": "Badem, hafif çekik",
+            "faceShape": "Oval",
+            "earShape": "Orta boy, hafif kalkık",
+            "headShape": "Orta genişlikte",
+            "noseShape": "İnce, küçük, yuvarlak uçlu",
+            "skinTone": "Albino",
+            "hairColor": "Beyaz veya çok açık sarı",
+            "hairStyle": "Orta uzunlukta, hafif dalgalı",
+            "eyeColor": "Açık mavi veya gri",
+            "hasGlasses": false
+        },
+        "extraConditions": [
+            "Albino"
+        ],
+        "emotionalState": "Neşeli"
+    },
+    {
+        "id": 25,
+        "gender": "Kız",
+        "image_path": "assets/avatars/25.png",
+        "physicalFeatures": {
+            "eyeShape": "Badem, hafif çekik",
+            "faceShape": "Oval",
+            "earShape": "Orta, hafif kalkık",
+            "headShape": "Orta genişlikte",
+            "noseShape": "İnce, küçük, yuvarlak uçlu",
+            "skinTone": "Orta açık, doğal Asyalı ten tonu",
+            "hairColor": "Koyu kahverengi",
+            "hairStyle": "Uzun, hafif dalgalı veya örgülü",
+            "eyeColor": "Kahverengi",
+            "hasGlasses": false
         },
         "extraConditions": [
             "Çilli"
         ],
-        "emotionalState": "Endişeli"
+        "emotionalState": "Neşeli"
     },
     {
-        "id": 6,
-        "gender": "Non-binary",
-        "image_path": "assets/avatars/6.jpeg",
+        "id": 26,
+        "gender": "Erkek",
+        "image_path": "assets/avatars/26.png",
         "physicalFeatures": {
-            "eyeShape": "Büyük yuvarlak",
+            "eyeShape": "Badem, hafif çekik",
             "faceShape": "Oval",
-            "earShape": "Orta",
-            "headShape": "Geniş alın",
-            "noseShape": "Küçük",
-            "skinTone": "Albino",
-            "hairColor": "Beyaz",
-            "hairStyle": "Kısa düz",
+            "earShape": "Orta, hafif kalkık",
+            "headShape": "Orta genişlikte",
+            "noseShape": "İnce, küçük, yuvarlak uçlu",
+            "skinTone": "Orta açık, doğal Asyalı ten tonu",
+            "hairColor": "Siyah veya koyu kahverengi",
+            "hairStyle": "Kısa ve hafif dalgalı veya taranmış",
+            "eyeColor": "Kahverengi",
+            "hasGlasses": false
+        },
+        "extraConditions": [
+            "Çilli"
+        ],
+        "emotionalState": "Neşeli"
+    },
+    {
+        "id": 27,
+        "gender": "Erkek",
+        "image_path": "assets/avatars/27.png",
+        "physicalFeatures": {
+            "eyeShape": "Badem, hafif çekik",
+            "faceShape": "Oval",
+            "earShape": "Küçük, yuvarlak",
+            "headShape": "Orta genişlikte",
+            "noseShape": "İnce, küçük, yuvarlak uçlu",
+            "skinTone": "Orta koyulukta buğday",
+            "hairColor": "Siyah",
+            "hairStyle": "Kısa, düz",
+            "eyeColor": "Kahverengi",
+            "hasGlasses": false
+        },
+        "extraConditions": [
+            "Ampute (kol)"
+        ],
+        "emotionalState": "Neşeli"
+    },
+    {
+        "id": 28,
+        "gender": "Erkek",
+        "image_path": "assets/avatars/28.png",
+        "physicalFeatures": {
+            "eyeShape": "Badem, hafif çekik",
+            "faceShape": "Oval",
+            "earShape": "Orta, hafif kalkık",
+            "headShape": "Orta genişlikte, kel (saçsız)",
+            "noseShape": "İnce, küçük, yuvarlak uçlu",
+            "skinTone": "Buğday alt tonlu",
+            "hairColor": "Yok (kel)",
+            "hairStyle": "Kel",
+            "eyeColor": "Siyah",
+            "hasGlasses": false
+        },
+        "extraConditions": [],
+        "emotionalState": "Neşeli"
+    },
+    {
+        "id": 29,
+        "gender": "Kız",
+        "image_path": "assets/avatars/29.png",
+        "physicalFeatures": {
+            "eyeShape": "Badem, hafif çekik",
+            "faceShape": "Oval",
+            "earShape": "Orta, hafif kalkık",
+            "headShape": "Orta genişlikte, kel (saçsız)",
+            "noseShape": "İnce, küçük, yuvarlak uçlu",
+            "skinTone": "Buğday alt tonlu",
+            "hairColor": "Siyah",
+            "hairStyle": "Uzun ve düz",
+            "eyeColor": "Kahverengi",
+            "hasGlasses": false
+        },
+        "extraConditions": [
+            "Diş Teli"
+        ],
+        "emotionalState": "Şaşkın"
+    },
+    {
+        "id": 30,
+        "gender": "Erkek",
+        "image_path": "assets/avatars/30.png",
+        "physicalFeatures": {
+            "eyeShape": "Badem, hafif çekik",
+            "faceShape": "Oval",
+            "earShape": "Orta, hafif kalkık",
+            "headShape": "Orta genişlikte, kel (saçsız)",
+            "noseShape": "İnce, küçük, yuvarlak uçlu",
+            "skinTone": "Buğday alt tonlu",
+            "hairColor": "Siyah",
+            "hairStyle": "Kısa",
+            "eyeColor": "Kahverengi",
+            "hasGlasses": false
+        },
+        "extraConditions": [
+            "Diş Teli"
+        ],
+        "emotionalState": "Şaşkın"
+    },
+    {
+        "id": 31,
+        "gender": "Kız",
+        "image_path": "assets/avatars/31.png",
+        "physicalFeatures": {
+            "eyeShape": "Badem",
+            "faceShape": "Oval",
+            "earShape": "Orta büyüklükte, hafif kalkık",
+            "headShape": "Orta genişlikte",
+            "noseShape": "İnce ve küçük",
+            "skinTone": "Orta koyulukta (Orta Doğu ten tonu)",
+            "hairColor": "Siyah",
+            "hairStyle": "Orta uzunlukta, hafif dalgalı",
+            "eyeColor": "Kahverengi",
+            "hasGlasses": false
+        },
+        "extraConditions": [
+            "Çilli"
+        ],
+        "emotionalState": "Neşeli ve sakin"
+    },
+    {
+        "id": 32,
+        "gender": "Erkek",
+        "image_path": "assets/avatars/32.png",
+        "physicalFeatures": {
+            "eyeShape": "Büyük, hafif çekik",
+            "faceShape": "Kare",
+            "earShape": "Orta boy, hafif kalkık",
+            "headShape": "Orta genişlikte",
+            "noseShape": "Orta kalınlıkta, küçük",
+            "skinTone": "Buğday alt tonlu açık ten",
+            "hairColor": "Koyu kahverengi",
+            "hairStyle": "Kısa, düz ve biraz dağınık",
+            "eyeColor": "Siyah",
+            "hasGlasses": false
+        },
+        "extraConditions": [
+            "Doğum lekesi (yanakta küçük, belirgin)"
+        ],
+        "emotionalState": "Meraklı ve sakin"
+    },
+    {
+        "id": 33,
+        "gender": "Kız",
+        "image_path": "assets/avatars/33.png",
+        "physicalFeatures": {
+            "eyeShape": "Büyük, badem",
+            "faceShape": "Yuvarlak",
+            "earShape": "Küçük, hafif kalkık",
+            "headShape": "Orta genişlikte",
+            "noseShape": "İnce, küçük",
+            "skinTone": "Orta ton (sıcak alt tonlu)",
+            "hairColor": "Koyu kahverengi",
+            "hairStyle": "Uzun, düz ve ortadan ayrılmış",
+            "eyeColor": "Ela",
+            "hasGlasses": false
+        },
+        "extraConditions": [
+            "Diş teli"
+        ],
+        "emotionalState": "Neşeli ve canlı"
+    },
+    {
+        "id": 34,
+        "gender": "Kadın",
+        "image_path": "assets/avatars/34.png",
+        "physicalFeatures": {
+            "eyeShape": "Yuvarlak",
+            "faceShape": "Oval",
+            "earShape": "Orta, hafif kalkık",
+            "headShape": "Oval",
+            "noseShape": "İnce, küçük, yuvarlak uçlu",
+            "skinTone": "Orta kahverengi (Orta Doğu ten rengine uygun)",
+            "hairColor": "Siyah",
+            "hairStyle": "Kıvırcık, orta uzunlukta",
+            "eyeColor": "Mavi",
+            "hasGlasses": true
+        },
+        "extraConditions": [
+            "Gözlük"
+        ],
+        "emotionalState": "Neşeli / Mutlu"
+    },
+    {
+        "id": 35,
+        "gender": "Erkek",
+        "image_path": "assets/avatars/35.png",
+        "physicalFeatures": {
+            "eyeShape": "Yuvarlak",
+            "faceShape": "Yuvarlak",
+            "headShape": "Oval",
+            "earShape": "Büyük",
+            "noseShape": "Geniş",
+            "skinTone": "Çok koyu kahverengi",
+            "hairColor": "Siyah",
+            "hairStyle": "Kıvırcık afro",
+            "eyeColor": "Kahverengi",
+            "hasGlasses": false
+        },
+        "extraConditions": [],
+        "emotionalState": "Mutlu"
+    },
+    {
+        "id": 36,
+        "gender": "Kız",
+        "image_path": "assets/avatars/36.png",
+        "physicalFeatures": {
+            "eyeShape": "Büyük",
+            "faceShape": "Kare",
+            "headShape": "Uzun (Dikdörtgen)",
+            "earShape": "Hafif kalkık",
+            "noseShape": "Kısa",
+            "skinTone": "Orta koyulukta (koyu kahverengi)",
+            "hairColor": "Koyu kahverengi",
+            "hairStyle": "Örgülü",
+            "eyeColor": "Ela",
+            "hasGlasses": false
+        },
+        "extraConditions": [
+            "Göz bandı (sol gözde)"
+        ],
+        "emotionalState": "Sakin"
+    },
+    {
+        "id": 37,
+        "gender": "Erkek",
+        "image_path": "assets/avatars/37.png",
+        "physicalFeatures": {
+            "eyeShape": "Yuvarlak",
+            "faceShape": "Kare",
+            "headShape": "Kare",
+            "earShape": "Büyük",
+            "noseShape": "Geniş",
+            "skinTone": "Buğday alt tonlu koyu ten",
+            "hairColor": "Doğal açık kahverengi",
+            "hairStyle": "Kısa dalgalı",
+            "eyeColor": "Kahverengi",
+            "hasGlasses": true
+        },
+        "extraConditions": [
+            "Doğum lekesi (yüzde sağ yanak)"
+        ],
+        "emotionalState": "Üzgün"
+    },
+    {
+        "id": 38,
+        "gender": "Erkek",
+        "image_path": "assets/avatars/38.png",
+        "physicalFeatures": {
+            "eyeShape": "Büyük",
+            "faceShape": "Yuvarlak",
+            "headShape": "Oval",
+            "earShape": "Hafif kalkık",
+            "noseShape": "Kısa",
+            "skinTone": "Çok koyu kahverengi",
+            "hairColor": "Siyah",
+            "hairStyle": "Dreadlocks",
+            "eyeColor": "Kahverengi",
+            "hasGlasses": false
+        },
+        "extraConditions": [
+            "Dişlek"
+        ],
+        "emotionalState": "Heyecanlı"
+    },
+    {
+        "id": 39,
+        "gender": "Kız",
+        "image_path": "assets/avatars/39.png",
+        "physicalFeatures": {
+            "eyeShape": "Yuvarlak",
+            "faceShape": "Kare",
+            "headShape": "Uzun (Dikdörtgen)",
+            "earShape": "Büyük",
+            "noseShape": "Geniş",
+            "skinTone": "Orta koyulukta",
+            "hairColor": "Siyah",
+            "hairStyle": "Topuz",
+            "eyeColor": "Ela",
+            "hasGlasses": true
+        },
+        "extraConditions": [
+            "Çilli (yanaklarda)"
+        ],
+        "emotionalState": "Mutlu"
+    },
+    {
+        "id": 40,
+        "gender": "Kız",
+        "image_path": "assets/avatars/40.png",
+        "physicalFeatures": {
+            "eyeShape": "Büyük",
+            "faceShape": "Yuvarlak",
+            "headShape": "Kalp şekli (İnce çene, geniş alın)",
+            "earShape": "Büyük",
+            "noseShape": "Kısa",
+            "skinTone": "Orta koyulukta",
+            "hairColor": "Çok açık sarı",
+            "hairStyle": "Hafif dalgalı",
             "eyeColor": "Mavi",
             "hasGlasses": false
         },
         "extraConditions": [
-            "Albino",
-            "Ampute (kol)"
+            "albino"
         ],
-        "emotionalState": "Hüzünlü"
+        "emotionalState": "Sakin"
+    },
+    {
+        "id": 41,
+        "gender": "Erkek",
+        "image_path": "assets/avatars/41.png",
+        "physicalFeatures": {
+            "eyeShape": "Yuvarlak",
+            "faceShape": "Kare",
+            "headShape": "Uzun (Dikdörtgen)",
+            "earShape": "Hafif kalkık",
+            "noseShape": "Geniş",
+            "skinTone": "Koyu kahverengi",
+            "hairColor": "Koyu kahverengi",
+            "hairStyle": "Kısa kesim",
+            "eyeColor": "Kahverengi",
+            "hasGlasses": true
+        },
+        "extraConditions": [
+            "Ampute (tek kol yok)"
+        ],
+        "emotionalState": "Kararlı"
+    },
+    {
+        "id": 42,
+        "gender": "Kız",
+        "image_path": "assets/avatars/42.png",
+        "physicalFeatures": {
+            "eyeShape": "Büyük",
+            "faceShape": "Yuvarlak",
+            "headShape": "Oval",
+            "earShape": "Büyük",
+            "noseShape": "Kısa",
+            "skinTone": "Çok koyu kahverengi",
+            "hairColor": "Siyah",
+            "hairStyle": "Örgülü",
+            "eyeColor": "Kahverengi",
+            "hasGlasses": false
+        },
+        "extraConditions": [
+            "Diş teli"
+        ],
+        "emotionalState": "Utangaç"
+    },
+    {
+        "id": 43,
+        "gender": "Erkek",
+        "image_path": "assets/avatars/43.png",
+        "physicalFeatures": {
+            "eyeShape": "Yuvarlak",
+            "faceShape": "Kare",
+            "headShape": "Kare",
+            "earShape": "Büyük",
+            "noseShape": "Geniş",
+            "skinTone": "Orta koyulukta",
+            "hairColor": "Koyu kahverengi",
+            "hairStyle": "Dreadlocks",
+            "eyeColor": "Ela",
+            "hasGlasses": true
+        },
+        "extraConditions": [
+            "Ben (alında)"
+        ],
+        "emotionalState": "Neşeli"
+    },
+    {
+        "id": 44,
+        "gender": "Kız",
+        "image_path": "assets/avatars/44.png",
+        "physicalFeatures": {
+            "eyeShape": "Büyük",
+            "faceShape": "Yuvarlak",
+            "headShape": "Kalp şekli (İnce çene, geniş alın)",
+            "earShape": "Büyük",
+            "noseShape": "Kısa",
+            "skinTone": "Orta koyulukta",
+            "hairColor": "Çok açık sarı",
+            "hairStyle": "Hafif dalgalı",
+            "eyeColor": "Mavi",
+            "hasGlasses": false
+        },
+        "extraConditions": [],
+        "emotionalState": "Sakin"
+    },
+    {
+        "id": 45,
+        "gender": "Erkek",
+        "image_path": "assets/avatars/45.png",
+        "physicalFeatures": {
+            "eyeShape": "Büyük",
+            "faceShape": "Yuvarlak",
+            "headShape": "Kalp şekli (İnce çene, geniş alın)",
+            "earShape": "Büyük",
+            "noseShape": "Kısa",
+            "skinTone": "Orta koyulukta",
+            "hairColor": "Çok açık sarı",
+            "hairStyle": "Hafif dalgalı",
+            "eyeColor": "Mavi",
+            "hasGlasses": false
+        },
+        "extraConditions": [
+            "Lösemi bandanalı"
+        ],
+        "emotionalState": "Sakin"
+    },
+    {
+        "id": 46,
+        "gender": "Erkek",
+        "image_path": "assets/avatars/46.png",
+        "physicalFeatures": {
+            "eyeShape": "Büyük",
+            "faceShape": "Oval",
+            "headShape": "Yuvarlak",
+            "earShape": "Normal",
+            "noseShape": "İnce ve uzun",
+            "skinTone": "Orta koyulukta kahverengi",
+            "hairColor": "Koyu kahverengi",
+            "hairStyle": "Kısa dalgalı",
+            "eyeColor": "Yeşil",
+            "hasGlasses": false
+        },
+        "extraConditions": [
+            "Çilli (burun ve yanaklarda hafif)"
+        ],
+        "emotionalState": "Meraklı"
+    },
+    {
+        "id": 47,
+        "gender": "Kız",
+        "image_path": "assets/avatars/47.png",
+        "physicalFeatures": {
+            "eyeShape": "Badem",
+            "faceShape": "Kalp şekli (geniş alın, ince çene)",
+            "headShape": "Oval",
+            "earShape": "Büyük",
+            "noseShape": "Kısa ve yuvarlak",
+            "skinTone": "Koyu kahverengi",
+            "hairColor": "Açık kahverengi",
+            "hairStyle": "Uzun örgülü",
+            "eyeColor": "Siyah",
+            "hasGlasses": true
+        },
+        "extraConditions": [
+            "Doğum lekesi (sol yanakta)"
+        ],
+        "emotionalState": "Sakin"
+    },
+    {
+        "id": 48,
+        "gender": "Erkek",
+        "image_path": "assets/avatars/48.png",
+        "physicalFeatures": {
+            "eyeShape": "Yuvarlak",
+            "faceShape": "Kare",
+            "headShape": "Kare",
+            "earShape": "Büyük",
+            "noseShape": "Geniş ve kısa",
+            "skinTone": "Koyu kahverengi",
+            "hairColor": "Siyah",
+            "hairStyle": "Kısa ve kıvırcık",
+            "eyeColor": "Mavi",
+            "hasGlasses": false
+        },
+        "extraConditions": [
+            "Şaşılık"
+        ],
+        "emotionalState": "Utangaç"
+    },
+    {
+        "id": 49,
+        "gender": "Erkek",
+        "image_path": "assets/avatars/49.png",
+        "physicalFeatures": {
+            "eyeShape": "Yuvarlak",
+            "faceShape": "Kare",
+            "headShape": "Yuvarlak",
+            "earShape": "Normal",
+            "noseShape": "Geniş ve yuvarlak",
+            "skinTone": "Koyu kahverengi",
+            "hairColor": "Koyu kahverengi",
+            "hairStyle": "Kısa ve kıvırcık",
+            "eyeColor": "Kahverengi",
+            "hasGlasses": true
+        },
+        "extraConditions": [
+            "Ben (alında)"
+        ],
+        "emotionalState": "Mutlu"
+    },
+    {
+        "id": 50,
+        "gender": "Erkek",
+        "image_path": "assets/avatars/50.png",
+        "physicalFeatures": {
+            "eyeShape": "Yuvarlak",
+            "faceShape": "Yuvarlak",
+            "headShape": "Oval",
+            "earShape": "Normal",
+            "noseShape": "Yuvarlak ve küçük",
+            "skinTone": "Koyu kahverengi",
+            "hairColor": "Siyah",
+            "hairStyle": "Kısa, kırmızı-sarı desenli bandana takılı",
+            "eyeColor": "Mavi",
+            "hasGlasses": false
+        },
+        "extraConditions": [
+            "Lösemi bandanalı"
+        ],
+        "emotionalState": "Mutlu"
+    },
+    {
+        "id": 51,
+        "gender": "Erkek",
+        "image_path": "assets/avatars/51.png",
+        "physicalFeatures": {
+            "eyeShape": "Yuvarlak (şaşı)",
+            "faceShape": "Yuvarlak",
+            "headShape": "Oval",
+            "earShape": "Normal",
+            "noseShape": "Yuvarlak ve küçük",
+            "skinTone": "Koyu kahverengi",
+            "hairColor": "Siyah",
+            "hairStyle": "Kısa, kıvırcık",
+            "eyeColor": "Mavi",
+            "hasGlasses": false
+        },
+        "extraConditions": [
+            "Şaşı"
+        ],
+        "emotionalState": "Mutlu"
+    },
+    {
+        "id": 52,
+        "gender": "Kız",
+        "image_path": "assets/avatars/52.png",
+        "physicalFeatures": {
+            "eyeShape": "Yuvarlak",
+            "faceShape": "Yuvarlak",
+            "headShape": "Yuvarlak",
+            "earShape": "Normal",
+            "noseShape": "Yuvarlak, küçük",
+            "skinTone": "Orta kahverengi",
+            "hairColor": "Kel",
+            "hairStyle": "Saç yok",
+            "eyeColor": "Mavi",
+            "hasGlasses": false
+        },
+        "extraConditions": [
+            "Lösemi"
+        ],
+        "emotionalState": "Mutlu"
     }
 ]
