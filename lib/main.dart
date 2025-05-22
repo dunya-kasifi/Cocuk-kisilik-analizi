@@ -2,12 +2,14 @@ import 'package:child_personality_analysis/features/welcome_page/pages/welcome_p
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'core/services/team_service.dart';
+import 'core/services/openai_service.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
 
   // Servisleri başlat
   Get.put(TeamService());
+  Get.put(OpenAIService());
 
   runApp(const MyApp());
 }

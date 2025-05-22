@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import '../controllers/result_controller.dart';
+import '../../analysis/pages/analysis_page.dart';
 
 class ResultPage extends StatelessWidget {
   final ResultController controller = Get.put(ResultController());
@@ -123,24 +124,43 @@ class ResultPage extends StatelessWidget {
                         ),
                       )),
                 ),
-                // Geri butonu
-                Align(
-                  alignment: Alignment.bottomLeft,
-                  child: ElevatedButton.icon(
-                    onPressed: () {
-                      Navigator.of(context).maybePop();
-                    },
-                    style: ElevatedButton.styleFrom(
-                      backgroundColor: Colors.white,
-                      foregroundColor: Colors.blue,
-                      shape: RoundedRectangleBorder(
-                        borderRadius: BorderRadius.circular(16),
+                // Alt butonlar
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  children: [
+                    // Geri butonu
+                    ElevatedButton.icon(
+                      onPressed: () {
+                        Navigator.of(context).maybePop();
+                      },
+                      style: ElevatedButton.styleFrom(
+                        backgroundColor: Colors.white,
+                        foregroundColor: Colors.blue,
+                        shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(16),
+                        ),
                       ),
+                      icon: const Icon(Icons.arrow_back_ios_new_rounded,
+                          size: 18),
+                      label: const Text('Geri'),
                     ),
-                    icon:
-                        const Icon(Icons.arrow_back_ios_new_rounded, size: 18),
-                    label: const Text('Geri'),
-                  ),
+                    // İleri butonu
+                    ElevatedButton.icon(
+                      onPressed: () {
+                        Get.to(() =>  AnalysisPage());
+                      },
+                      style: ElevatedButton.styleFrom(
+                        backgroundColor: Colors.white,
+                        foregroundColor: Colors.blue,
+                        shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(16),
+                        ),
+                      ),
+                      icon:
+                          const Icon(Icons.arrow_forward_ios_rounded, size: 18),
+                      label: const Text('Analiz Et'),
+                    ),
+                  ],
                 ),
               ],
             ),
