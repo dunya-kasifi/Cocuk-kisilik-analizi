@@ -6,7 +6,7 @@ class OpenAIService extends GetxService {
   static const String _apiUrl =
       'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent';
   static const String _apiKey =
-      'AIzaSyC6ea7tiqg_eGUiFQj53wG7AcvtFvN6bew'; // Gemini API anahtarı
+      ''; // Gemini API anahtarı
 
   Future<String> analyzePersonality(String prompt) async {
     try {
