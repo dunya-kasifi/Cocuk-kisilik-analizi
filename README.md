@@ -1,3 +1,15 @@
+# Önemli Not
+
+Bu proje istek üzerine ek olarak geliştirilmiş olup organizasyonumuz içerisinde yer alan diğer projemiz olan **Dünya Kaşifi** reposunda o projeye ait kodlar, dökümantasyonlar ve tanıtım videosu yer almaktadır.
+
+## Tanıtım Videoları
+
+**Çocuk Kişilik Analizi:** https://youtu.be/MuZPWyHQoQs
+
+Youtube'da sorun olması durumuna karşı dosya dinininde bulunan ``video/Cocuk Kisilik Analizi Proje Tanitimi.mp4`` dosyasından videoya ulaşılabilir.
+
+**Dünya Kaşifi:** https://youtu.be/0C4aFW_aM7U
+
 # 🎭 Çocuk Kişilik Analizi
 
 Çocukların karakter seçimleri ve takım oluşturma tercihlerine dayalı olarak kişilik analizlerinin yapıldığı interaktif Flutter uygulaması.
